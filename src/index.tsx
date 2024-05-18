@@ -3,13 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { PostHogProvider} from 'posthog-js/react'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <PostHogProvider
+      apiKey="phc_7uP5Kfhcd4WCOXByMFnmWNPN0BsIyH1WlJnq7nDQm1N"
+      options={{api_host: 'https://us.i.posthog.com', autocapture: false}}
+    >
+      <App />
+    </PostHogProvider>
   </React.StrictMode>
 );
 
