@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/find-meal-survey/static/css/main.f96730f1.css",
-    "main.js": "/find-meal-survey/static/js/main.ce490ff0.js",
+    "main.js": "/find-meal-survey/static/js/main.eed1e581.js",
     "static/js/453.cdb0927a.chunk.js": "/find-meal-survey/static/js/453.cdb0927a.chunk.js",
+    "static/media/android-download.svg": "/find-meal-survey/static/media/android-download.18991295d2a8ffb76d8bddd00980991e.svg",
+    "static/media/ios-download.svg": "/find-meal-survey/static/media/ios-download.15f01eefb2013206cc7e26d98fbe95fb.svg",
     "index.html": "/find-meal-survey/index.html",
     "main.f96730f1.css.map": "/find-meal-survey/static/css/main.f96730f1.css.map",
-    "main.ce490ff0.js.map": "/find-meal-survey/static/js/main.ce490ff0.js.map",
+    "main.eed1e581.js.map": "/find-meal-survey/static/js/main.eed1e581.js.map",
     "453.cdb0927a.chunk.js.map": "/find-meal-survey/static/js/453.cdb0927a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f96730f1.css",
-    "static/js/main.ce490ff0.js"
+    "static/js/main.eed1e581.js"
   ]
 }
