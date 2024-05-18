@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import googleIcon from '../assets/google-icon.svg';
-import appleIcon from '../assets/apple-icon.svg';
+import googleIcon from '../assets/android-download.svg';
+import appleIcon from '../assets/ios-download.svg';
 
 const FinalStep: FC = () => {
   return (
