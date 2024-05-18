@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/find-meal-survey/static/css/main.f96730f1.css",
+    "main.js": "/find-meal-survey/static/js/main.ce490ff0.js",
+    "static/js/453.cdb0927a.chunk.js": "/find-meal-survey/static/js/453.cdb0927a.chunk.js",
+    "index.html": "/find-meal-survey/index.html",
+    "main.f96730f1.css.map": "/find-meal-survey/static/css/main.f96730f1.css.map",
+    "main.ce490ff0.js.map": "/find-meal-survey/static/js/main.ce490ff0.js.map",
+    "453.cdb0927a.chunk.js.map": "/find-meal-survey/static/js/453.cdb0927a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f96730f1.css",
+    "static/js/main.ce490ff0.js"
+  ]
+}
