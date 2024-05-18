@@ -2,6 +2,7 @@ import { FC } from 'react';
 import googleIcon from '../assets/android-download.svg';
 import appleIcon from '../assets/ios-download.svg';
 import { usePostHog } from 'posthog-js/react';
+import ReactPixel from 'react-facebook-pixel';
 
 const FinalStep: FC = () => {
   const posthog = usePostHog();
@@ -16,6 +17,7 @@ const FinalStep: FC = () => {
           rel="noreferrer"
           onClick={() => {
             posthog.capture('download_ios');
+            ReactPixel.track('download_ios');
           }}
         >
           <img src={appleIcon} alt="" />
@@ -27,6 +29,7 @@ const FinalStep: FC = () => {
           rel="noreferrer"
           onClick={() => {
             posthog.capture('download_android');
+            ReactPixel.track('download_android');
           }}
         >
           <img src={googleIcon} alt="" />

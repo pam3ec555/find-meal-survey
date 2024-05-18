@@ -4,6 +4,7 @@ import { Option } from '../components/CheckboxOption';
 import React from 'react';
 import ContinueButton from '../components/ContinueButton';
 import { usePostHog } from 'posthog-js/react';
+import ReactPixel from 'react-facebook-pixel';
 
 interface Porps {
   goNext: () => void;
@@ -80,6 +81,7 @@ const Step1: FC<Porps> = ({ goNext }) => {
         posthog.capture('step1_completed', {
           selectedOptions: Array.from(selectedOptions),
         });
+        ReactPixel.track("step1_completed");
         goNext();
       }}/>
     </>
